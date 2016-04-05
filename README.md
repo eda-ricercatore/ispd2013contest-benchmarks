@@ -150,12 +150,26 @@
 		* .v file
 		* .runtime file
 
+To test my code thoroughly, sweep through the set of ISPD 2013 contest
+	benchmarks in the "./Final" directory, which is obtained by
+	uncompressing and unarchiving the file, "ispd2013_final.tar.bz2".
 
+For each benchmark of the ISPD 2013 contest, it contains three files:
+- .sdc file
+- .spef file
+- .v file
 
+In the "./Final" directory, each benchmark also includes a ".runtime"
+	file.
 
-
-
-
+In the "./Final" directory, each benchmark is available in two sets of
+	files.
+One set of files belongs to a slower version of the benchmark, which
+	can be obtained during logic synthesis (specifically its
+	technology mapping step) by selecting slower logic cells/gates.
+The other set of files belongs to a faster version of the benchmark,
+	which can be obtained during logic synthesis (specifically its
+	technology mapping step) by selecting faster logic cells/gates.
 
 
 
