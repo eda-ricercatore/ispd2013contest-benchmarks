@@ -20,7 +20,7 @@
 		* .sdc file
 		* .spef file
 		* .v file
-	- des benchmark
+	- des_perf benchmark
 		* .sdc file
 		* .spef file
 		* .v file
@@ -62,7 +62,84 @@
 	- .spef file
 	- .v file
 + Final
-
+	- cordic_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- cordic_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- des_perf_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- des_perf_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- edit_dist_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- edit_dist_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- fft_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- fft_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- lib
+		* (Process) technology library, or the cell library (used
+			during the technology mapping step of logic synthesis).
+	- matrix_mult_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- matrix_mult_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- parser_helpers
+		* parser_helper.cpp
+		* parser_helper.h
+	- pci_bridge32_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- pci_bridge32_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- README
+		* A text file describing the contents of the directory.
+	- usb_phy_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- usb_phy_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
 
 
 
