@@ -115,6 +115,16 @@
 		* .spef file
 		* .v file
 		* .runtime file
+	- netcard_fast benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
+	- netcard_slow benchmark
+		* .sdc file
+		* .spef file
+		* .v file
+		* .runtime file
 	- parser_helpers
 		* parser_helper.cpp
 		* parser_helper.h
