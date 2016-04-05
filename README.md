@@ -15,6 +15,7 @@
 
 
 # Organization of the Repository
+
 + ispd2013
 	- cordic benchmark
 		* .sdc file
@@ -138,8 +139,6 @@
 		* .spef file
 		* .v file
 		* .runtime file
-	- README
-		* A text file describing the contents of the directory.
 	- usb_phy_fast benchmark
 		* .sdc file
 		* .spef file
