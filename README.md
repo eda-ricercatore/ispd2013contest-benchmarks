@@ -16,6 +16,9 @@
 
 # Organization of the Repository
 
++ references.md
+	- Contains information for referencing/citing the use of the set
+		of ISPD 2013 contest benchmarks.
 + ispd2013
 	- cordic benchmark
 		* .sdc file
@@ -173,7 +176,9 @@ The other set of files belongs to a faster version of the benchmark,
 	which can be obtained during logic synthesis (specifically its
 	technology mapping step) by selecting faster logic cells/gates.
 
-
+The "parser_helpers" subdirectory contains C++ code to help EDA
+	software developers develop parsers for the set of ISPD 2013
+	contest benchmarks.
 
 
 
