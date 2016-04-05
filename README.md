@@ -164,9 +164,11 @@ In the "./Final" directory, each benchmark also includes a ".runtime"
 
 In the "./Final" directory, each benchmark is available in two sets of
 	files.
+	
 One set of files belongs to a slower version of the benchmark, which
 	can be obtained during logic synthesis (specifically its
 	technology mapping step) by selecting slower logic cells/gates.
+
 The other set of files belongs to a faster version of the benchmark,
 	which can be obtained during logic synthesis (specifically its
 	technology mapping step) by selecting faster logic cells/gates.
