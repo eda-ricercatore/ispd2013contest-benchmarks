@@ -40,6 +40,8 @@
 		* .spef file
 		* .v file
 	- parser_helpers
+		* parser_helper.cpp
+		* parser_helper.h
 	- pci_bridge32 benchmark
 		* .sdc file
 		* .spef file
@@ -50,6 +52,7 @@
 		* .sdc file
 		* .spef file
 		* .v file
+		* .sizes
 	- usb_phy benchmark
 		* .sdc file
 		* .spef file
